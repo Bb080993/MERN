@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main{
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.tabs{
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  
+}
+
+.display{
+  border: 2px solid blue;
+  width: 73%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.tabs.one{
+  background-color: pink;
+}
+.two{
+  background-color: pink;
+}
